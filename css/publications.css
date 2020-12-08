@@ -1,0 +1,110 @@
+.pubTable {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;/*space-evenly;*/
+    margin-top: 6vh;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+#pubCard {
+    border-radius: 20px;
+    /* height: vh; */
+    padding:10px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: flex-start;
+	text-align: left;
+}
+
+#pubCardFlat{
+    border-radius: 20px;
+    height: 33vh;
+    padding:10px;
+    margin: 10px 10px 10px 10px;
+}
+
+#ctgButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+#cardImg {
+    /* border-radius: 25px; */
+	
+}
+
+/* Note: add the following line to turn background color to white */
+.image {Background-color: white !important;}
+
+/* Note: change the sort buttons font size to be larger */
+.button {font-size: 16px !important;}
+
+
+#cardImgDate {
+    /* border-radius: 25px; */
+    width: 50%;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;	
+  
+
+
+}
+#yearHeader {
+  font-family: "Montserrat";
+  color: #2A1897;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+
+#labName {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+#imageToggle {
+    font-size: 1.2em;
+}
+
+/* #pubCard {
+    align-items: center;
+    justify-content: center;
+} */
+
+#dateDivider {
+    justify-content: center;
+    border-radius: 25px;
+    padding:10px;
+    margin: 10px 10px 10px 10px;
+}
+
+#imgToggleBtn {
+    color: rgb(32, 32, 32);
+}
+
+#paperTitle {
+    text-decoration: underline;
+    color: #2c5e77;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+  width:100;
+}
+
+/* Use a collapsed column to break to a new column */
+.break-column {
+  flex-basis: 100%;
+  width: 0;
+}
+

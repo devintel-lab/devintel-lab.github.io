@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- vvv For each page, the title needs to be changed -->
+    <title>DI Lab Homepage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="assets/js/page_template.js"></script>
+</head>
+
+<body class="homepage">
+    <!-- lab logo floating on the topleft corner of the page -->
+    <a href="index.html" class="lab_logo_text">Developmental<br>Intelligence Lab</a>
+    <a class="logo_placeholder" href="index.html" onclick="return false;"><img class="lab_logo" src="images/logo.png"
+            onclick="toggleNav()" alt=""></a>
+
+    <!-- background color -->
+    <div style="background-color: rgb(242, 241, 237);">
+        <!-- navigation bar. same for all pages -->
+        <div class="navbar">
+            <div class="">
+                <a href="index.html">Home</a>
+                <a href="pub.html">Publications</a>
+                <a href="team.html">Our Team</a>
+                <a href="project.html">Research Projects</a>
+                <a class="active" href="participation.html" style="background-color: chocolate">Participation</a>
+                <a href="opportunities.html">Opportunities</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+
+
+        <!-- body
+        <div style="margin-top: 100px; width: 100%; height: auto;">
+            <h1></h1>
+        </div> -->
+
+        <section class="article">
+            <h1 class="intro_title"><strong></strong></h1>
+            <!-- <div class="img_grid">
+
+            </div> -->
+            <div class="img_container">
+                <img style="margin-left: auto; margin-right: auto; width: 100%;" src="images/participant.jpg" alt="">
+            </div>
+
+            <p class="intro_content">The Developmental Intelligence Lab is part of <a href="https://liberalarts.utexas.edu/psychology/areas-of-study/developmental/Childrens-Research-Center/index.php#Involved">UT Austin’s Children’s Research
+                Center (CRC)</a>.
+            </p>
+
+            <button class="accordion">What ages do you study and how can I participate?
+            </button>
+            <div class="panel">
+                <p>Our lab studies children aged 6 months to 6 years old. You can email us at chenyulab@austin.utexas.edu to sign up to participate.</p>
+                <p>You can also fill out our online participation form to be added to the <a href ="https://utdirect.utexas.edu/apps/cola/crl/nlogon/signup" >UT Children’s Research Center
+                    database</a>.
+                    </p>
+            </div>
+
+            <button class="accordion">What can I expect for my visit?
+            </button>
+            <div class="panel">
+                <p><strong>Parking and directions</strong></p>
+                <p>
+                    One of our research assistants will meet you at the CRC, located in the Seay Psychology building
+                    at the corner of Dean Keeton and Speedway. Our research assistant will help you get a parking permit
+                    (if needed) and will escort you to our lab space. </p>
+                <p>
+                    If you drive to campus, please park on Speedway, directly in front of the CRC entrance in the
+                    spots marked Reserved F87 Permit Parking. You will receive a parking permit to use during your
+                    visit.Our lab is also accessible using public transportation. You can find directions You can find directions <a href="https://liberalarts.utexas.edu/psychology/areas-of-study/developmental/Childrens-Research-Center/index.php#Involved">here</a>.</p>
+                <p>
+                    Our lab is also accessible using public transportation. <a href="https://liberalarts.utexas.edu/psychology/areas-of-study/developmental/Childrens-Research-Center/index.php#Location">Learn more here</a>.</p>
+                </p>
+				<p>
+                    <a href="https://liberalarts.utexas.edu/psychology/_files/PDF/DevPsyPDFs/CRC_Directions-Spanish.pdf">Direcciónes para el CRC en Español</a>.</p>
+                </p>
+
+                <p><strong>Child care</strong></p>
+                <p>
+                    We have a waiting room with toys where other children can play during the study with one of our
+                    research assistants. During scheduling, we will ask you if you need childcare so that we can arrange
+                    for someone to be present. </p>
+                <p><strong>Consent form</strong></p>
+                <p>
+                    Before we begin, we will explain to you exactly what you can expect from our study. You will be
+                    given a consent form to sign should you agree to participate.
+
+                </p>
+                <p><strong>The study</strong></p>
+                <p> We have several studies running in the lab at all times, so your visit may include some
+                    combination of the below methods:</p>
+                <p>
+                    Wearable technology and play: You and your child will be equipped with eye tracking glasses and
+                    hats, as well as motion tracking jackets. These wearable technologies help us measure natural
+                    behavior during play. After set-up, you and your child will be given toys to play with together just
+                    like you might at home! Set-up and play time takes about 30-40 minutes.
+                </p>
+                <p>Video watching: For some studies, we will show your child videos on a screen while we record their
+                    eye movements. This often takes about 10-15 minutes.
+                </p>
+                <p>Parent forms: Many of our studies will ask you to fill out a form about words that your child knows
+                    or ways that your child plays. These forms can take about 15-20 minutes to complete on our lab iPad.
+                </p>
+                <p><strong>After the study</strong></p>
+                <p>
+                    Your child will receive a thank-you gift for coming into the lab (like a small toy, a book, or a
+                    lab t-shirt). We will then escort you back to your car or the lobby of the CRC.
+
+                </p>
+            </div>
+
+            <button class="accordion">How long do the visits take?</button>
+            <div class="panel">
+                <p>Our experiments typically take somewhere between 30 minutes and 1.5 hours to complete. When you’re
+                    invited to come into our lab, the researcher will tell you how long that study typically takes.</p>
+                <p>
+                    If you and your child need a break for any reason or need to stop altogether, we will absolutely
+                    accommodate your needs.
+                </p>
+            </div>
+            <button class="accordion">Will I be with my child during the visit?
+            </button>
+            <div class="panel">
+                <p>Yes, you will be with your child during the entire visit.
+                </p>
+                <p>
+                    Any other children you may need to bring with you on our visit will be playing nearby with a trained
+                    research assistant.
+                </p>
+            </div>
+            <button class="accordion">What days and times are you available for me to participate?
+            </button>
+            <div class="panel">
+                <p>We typically invite families to visit our lab between 9-6pm on Mondays through Fridays. However, we
+                    are available in the early morning, evening, and on the weekend to best accommodate you and your
+                    child’s schedule.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- contact information -->
+       <section class="contact_info">
+            <img style="float: left; width: 100px;" src="images/tower.png">
+                <p style="text-align: center; color: white;"><strong>University of Texas-Austin | Department of Psychology</strong><br><br>
+                Lab email: chenyulab@austin.utexas.edu | Address: 108 E Dean Keeton St, Austin, TX 78712</p>
+
+        </section>
+    </div>
+</body>
+
+</html>

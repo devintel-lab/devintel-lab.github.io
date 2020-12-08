@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Publications</title>
+    <meta name="description" content="Publications">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+        integrity="sha512-YHuwZabI2zi0k7c9vtg8dK/63QB0hLvD4thw44dFo/TfBFVVQOqEG9WpviaEpbyvgOIYLXF1n7xDUfU3GDs0sw=="
+        crossorigin="anonymous" />
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script> -->
+
+
+    <link rel="stylesheet" href="./css/publications.css">
+
+    <script type="text/javascript" src="./js/pubTable.js"></script>
+    <script type="text/javascript" src="./js/pubs.js"></script>
+
+</head>
+
+<script>
+    var settings = {
+        ctg: "all",
+        images: true
+    }
+</script>
+
+<body>
+
+    <!-- <div class="categoryButtons">
+        <button class="ui red basic button">Statistical Language Learning</button>
+        <button class="ui blue basic button">Perception and Action</button>
+        <button class="ui orange basic button">Embodied Social Interaction</button>
+        <button class="ui violet basic button">AI/HCI/HRI/VR</button>
+        <button class="ui black basic button">Cognitive Modeling</button>
+    </div> -->
+    <div class="row" id="labName">
+        <h1 class="ui header">Developmental Intelligence and Learning Lab</h1>
+    </div>
+
+    <div class="row" id="ctgButtons">
+        <div class="categoryButtons">
+            <button class="ui black basic button" onclick="filterTable('all')" id="all">All</button>
+            <button class="ui black basic button" onclick="filterTable('language learning')"
+                id="language learning">Cross-situational
+                Learning</button>
+            <button class="ui black basic button" onclick="filterTable('embodied social')"
+                id="embodied social">Multimodal
+                Social
+                Interaction</button>
+            <button class="ui black basic button" onclick="filterTable('perception action')"
+                id="perception action">Attention, Perception
+                and
+                Action</button>
+
+            <button class="ui black basic button" onclick="filterTable('ai')" id="ai">Computer Vision/Machine
+                Learning</button>
+            <button class="ui black basic button" onclick="filterTable('modeling')" id="modeling">Cognitive
+                Modeling</button>
+
+            <!-- <button class="ui black basic button" onclick="filterTable('attention')" id="attention">Attention</button> -->
+
+            <button class="ui button icon" onclick="toggleImages()">
+                <i class="image icon" id="imgToggleBtn"></i>
+                <!-- <input type="checkbox" name="public" checked onclick="toggleImages()"> -->
+
+                <!-- <label><i class="image icon" id="imageToggle"></i></label> -->
+            </button>
+            <!-- <button class="ui black basic button" onclick="toggleImages()"><i class="image icon"
+                    id="imageToggle"></i></button> -->
+        </div>
+    </div>
+
+    <div class="ui divider"></div>
+
+    <div class="row center-xs" id="cards">
+        <div class="col-xs-12">
+            <div id="cardContainer"></div>
+        </div>
+    </div>
+
+    <!-- <script>for (var i = 0; i < pubs.length; i++) {
+            console.log(i)
+        }</script> -->
+
+    <script>filterTable('all')</script>
+
+
+</body>
+
+</html>

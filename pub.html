@@ -1,0 +1,133 @@
+<!doctype html>
+
+<html lang="en">
+
+<html>
+
+<head>
+    <!-- vvv For each page, the title needs to be changed -->
+    <title>Developmental Intelligence Lab</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Publications">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+        integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+        integrity="sha512-YHuwZabI2zi0k7c9vtg8dK/63QB0hLvD4thw44dFo/TfBFVVQOqEG9WpviaEpbyvgOIYLXF1n7xDUfU3GDs0sw=="
+        crossorigin="anonymous" />
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script> -->
+
+
+    <link rel="stylesheet" href="./css/publications.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script type="text/javascript" src="./js/pubTable.js"></script>
+    <script type="text/javascript" src="./js/pubs.js"></script>
+    <script>
+        var settings = {
+            ctg: "all",
+            images: true
+        }
+    </script>
+    <script src="assets/js/page_template.js"></script>
+</head>
+
+<body class="homepage">
+    <!-- lab logo floating on the topleft corner of the page -->
+    <a href="index.html" class="lab_logo_text"> Developmental <br> Intelligence Lab</a>
+    <a class="logo_placeholder" href="index.html" onclick="return false;"><img class="lab_logo" src="images/logo.png"
+            onclick="toggleNav()" alt=""></a>
+
+    <!-- background color -->
+    <div style="background-color: rgb(242, 241, 237);">
+        <!-- navigation bar. same for all pages -->
+        <div class="navbar">
+            <div class="">
+
+                <a href="index.html">Home</a>
+                <a class="active" href="pub.html" style="background-color: chocolate">Publications</a>
+                <a href="team.html">Our Team</a>
+                <a href="project.html">Research Projects</a>
+                <a href="participation.html">Participation</a>
+                <a href="opportunities.html">Opportunities</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+        </div>
+
+        <section class="article"style="margin-bottom: 0; padding-bottom: 0;">
+            <h1 class="intro_title"><strong></strong></h1>
+            <!-- <div class="img_grid">
+
+            </div> -->
+            <div class="img_container">
+                <img style="margin-left: auto; margin-right: auto; width: 100%;" src="images/publications_banner.png"
+                    alt="">
+            </div>
+        </section>
+
+        <div class="row" id="ctgButtons">
+            <div class="categoryButtons" style="line-height: 50px">
+                <button class="ui black basic button" onclick="filterTable('all')" id="all" >All</button>
+                <button class="ui black basic button" onclick="filterTable('csl')" id="csl">Language 
+                    Learning</button>
+                <button class="ui black basic button" onclick="filterTable('msi')" id="msi">Multimodal
+                    Social
+                    Interaction</button>
+                <button class="ui black basic button" onclick="filterTable('apa')" id="apa">Attention,
+                    Perception
+                    and
+                    Action</button>
+
+                <button class="ui black basic button" onclick="filterTable('cvml')" id="cvml">Computer Vision/Machine
+                    Learning</button>
+                <button class="ui black basic button" onclick="filterTable('cogmod')" id="cogmod">Cognitive
+                    Modeling</button>
+
+                <!-- <button class="ui black basic button" onclick="filterTable('attention')" id="attention">Attention</button> -->
+
+                <button class="ui button icon" onclick="toggleImages()">
+                    <i class="image icon" id="imgToggleBtn"></i>
+                    <!-- <input type="checkbox" name="public" checked onclick="toggleImages()"> -->
+
+                    <!-- <label><i class="image icon" id="imageToggle"></i></label> -->
+                </button>
+                <!-- <button class="ui black basic button" onclick="toggleImages()"><i class="image icon"
+                    id="imageToggle"></i></button> -->
+            </div>
+        </div>
+
+        <div class="ui divider"></div>
+
+        <div class="row center-xs" id="cards">
+            <div class="col-xs-12">
+                <div id="cardContainer"></div>
+            </div>
+        </div>
+
+        <!-- <script>for (var i = 0; i < pubs.length; i++) {
+            console.log(i)
+        }</script> -->
+        
+        <script>filterTable('all')</script> 
+   <!-- contact information -->
+        <section class="contact_info">
+            <img style="float: left; width: 100px;" src="images/tower.png">
+                <p style="text-align: center; color: white;"><strong>University of Texas-Austin | Department of Psychology</strong><br><br>
+                Lab email: chenyulab@austin.utexas.edu | Address: 108 E Dean Keeton St, Austin, TX 78712</p>
+
+        </section>
+    </div>
+</body>
+
+</html>

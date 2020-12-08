@@ -1,0 +1,49 @@
+.pubTable {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+#pubCard {
+    border-radius: 10px;
+}
+
+#ctgButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+#labName {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+#imageToggle {
+    font-size: 1.2em;
+}
+
+#pubCard {
+    align-items: center;
+    justify-content: center;
+}
+
+#dateDivider {
+    justify-content: center;
+}
+
+#imgToggleBtn {
+    color: rgb(96, 96, 96);
+}
+
+#paperTitle {
+    text-decoration: underline;
+    color: #2a79a1;
+}

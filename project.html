@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- vvv For each page, the title needs to be changed -->
+    <title>DI Lab Homepage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="assets/js/page_template.js"></script>
+</head>
+
+<body class="homepage">
+    <!-- lab logo floating on the topleft corner of the page -->
+    <a href="index.html" class="lab_logo_text">Developmental<br>Intelligence Lab</a>
+    <a class="logo_placeholder" href="index.html" onclick="return false;"><img class="lab_logo" src="images/logo.png"
+            onclick="toggleNav()" alt=""></a>
+
+    <!-- background color -->
+    <div style="background-color: rgb(242, 241, 237);">
+        <!-- navigation bar. same for all pages -->
+        <div class="navbar">
+            <div class="">
+
+                <a href="index.html">Home</a>
+                <a href="pub.html">Publications</a>
+                <a href="team.html">Our Team</a>
+                <a class="active" href="project.html" style="background-color: chocolate">Research Projects</a>
+                <a href="participation.html">Participation</a>
+                <a href="opportunities.html">Opportunities</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+        </div>
+
+
+        <!-- body
+        <div style="margin-top: 100px; width: 100%; height: auto;">
+            <h1></h1>
+        </div> -->
+
+        <section class="article">
+            <h1 class="intro_title"><strong></strong></h1>
+            <!-- <div class="img_grid">
+
+            </div> -->
+            <div class="img_container">
+                <img style="margin-left: auto; margin-right: auto; width: 100%;" src="images/research.JPG" alt="">
+            </div>
+			<p class="intro_content" style = "font-size: 22px"; > Our research program employs interdisciplinary and integrated scientific approaches, combining experimental studies with computational modeling, and connecting human learning with machine learning. 
+			We examine the fine-grained structure of moment-to-moment micro-behaviors using advanced data collection and data analytics techniques. These bottom-up insights complement and guide our top-down theoretical hypotheses about the real-time nature of perceptual, cognitive, and learning processes through which developmental intelligence emerges over time. 
+			</p>
+            <table class="research_proj_table" border="0" cellpadding="15">
+                <tbody>
+                    <tr>
+                        <td class="img_cell_r">
+							<video controls>
+                            <source src="video/smi2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+							</video>
+							<strong> Infant eye movements in cross-situational learning </strong></td>
+							
+                        <td class="text_cell">
+                            <p class="rp_title">Statistical Language learning</p>
+                            <p class="rp_content">Human children are prodigious language learners. Confronted with a “blooming, buzzing confusion”, young children learn word-referent associations by computing distributional statistics across the co-occurrences of words from highly ambiguous learning situations. Our research on statistical word learning focuses on three pertinent questions: 1) what statistical regularities in everyday environments are relevant to language learning; 2) how such learning inputs are jointly created by parents and children; and 3) what computational mechanisms allow the brain to aggregate the statistical information across multiple learning situations. 
+							</p>
+							<br> <strong> Representative Publications: </strong> <br>
+							<ul>
+							<li> <a href="papers/2007_Yu_PsychSci.pdf" >  Rapid word learning under uncertainty via cross-situational statistics. </a> <br> </li>
+							<br> <li> <a href="papers/2013_Yurovsky_DevSci-SR.pdf" >  Statistical word learning at scale: the baby's view is better </a> <br> </li>
+							</ul>
+							 More papers can be found <a href="pub.html"> here </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="text_cell">
+                            <p class="rp_title">Vision, Attention, and Action</p>
+                            <p class="rp_content">We view behavior as a self-organizing outcome emerging from a complex dynamic system of perceptual, cognitive and motor processes. We study how sensory-motor behaviors in the real world, usually observed by a sequence of interwoven real-time behaviors, enable both children and adults to create and select different pathways to find a dynamically stable solution in each moment. Toward this goal, we use head-mounted cameras and eye trackers to record egocentric videos when participants perform everyday tasks. The egocentric videos approximate the contents of the wearer’s fields of view (FOVs) and the eye tracking data indicate where the wearer looks within these FOVs. Analyzing egocentric vision and eye tracking data provides a unique opportunity to understand how visual, cognitive and motor processes are tightly intertwined in real time to support learning and development. 
+							</p>
+							<br> <strong> Representative Publications: </strong> <br>
+							
+							<ul>
+							<li> <a href="papers/2019_Yu_DevSci.pdf" >  Infant sustained attention but not joint attention to objects at 9 months predicts vocabulary at 12 and 15 months. </li> 
+							 </a> <br>
+							<li> <a href="papers/2019_Slone_DevSci.pdf" >   Self-Generated variability in object images predicts vocabulary growth. 	</li>  			
+							 </a> <br>
+							 </ul>
+							
+							 More papers can be found <a href="pub.html"> here </a>
+                        </td>
+						<td class="img_cell_r">
+                              <video controls>
+                            <source src="video/make_pbj_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+						Action anticipation during food preparation 
+						<br>
+						<br> 
+						<video controls>
+                            <source src="video/toy_play_v3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+						Free-Flowing Toy play 
+                        
+                    </tr>
+
+                    <tr>
+                        <td class="img_cell_r">
+						 <video controls>
+                            <source src="video/motion2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+						Motion tracking during parent-child interaction 
+						<br>
+						<br>
+						<video controls>
+                            <source src="video/DEMO_2.mp4" type="video/mp4">
+                            Your browse oes not support the video tag.
+                        </video>
+						Dual eye tracking in the classic "whiteroom" 
+						
+                        <td class="text_cell">
+                            <p class="rp_title">Multimodal Social Interaction</p>
+                            <p class="rp_content">Humans are social animals. Early development and learning rely on interactions with other social beings. For example, the parent “jiggles” an object, the infant looks, and simultaneously the parent provides the name.  The time-locked social signals encoded in multiple modalities play a vital role in learning, by enhancing and selecting some physical correlations,  and thereby  making  them  more  salient  and  thus  learnable. In this way, the effects of high-level social cognition can be grounded in embodied multimodal behaviors that are part of a natural social interaction. Inferences about the mental states of others arise from reading their external bodily actions in the real world. We take this idea of embodied multimodal interaction to examine both typically developing and atypically developing populations. 
+							    </p>
+								<br> <strong> Representative Publications: </strong> <br>
+								<ul> 
+							<li><a href="papers/2016_Yu_CurBio.pdf" >  The social origins of sustained attention in one-year-old human infants </a> <br> </li> 
+							<br> <li> <a href="papers/2017_Yu_CogSci.pdf" >   Multiple Sensory-Motor Pathways Lead to Coordinated Visual Attention Cognitive Science </a> </li> <br>
+							 </ul> <br> <br>
+							 More papers can be found <a href="pub.html"> here </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="text_cell">
+                            <p class="rp_title">Computer Vision and Machine Learning</p>
+                            <p class="rp_content">How can human learning teach us about how machines can learn? The recent progress in machine learning has been largely driven by leveraging large-scale datasets and computing power.  Compared with machine learners, human learners are more efficient in that we don’t need to rely on a huge amount of data in training and we are better in generalization. Can we build machines to learn in human-like ways to emulate the efficiency and generalization prominent in human learning? We start to explore this idea by using egocentric video collected from young children to train state-of-the-art learning algorithms. 
+							</p>
+
+							<br> <strong> Representative Publications: </strong> <br>
+							<ul>
+							<li> <a href="papers/2018_Bambach_NeurIPS.pdf" >  Toddler-Inspired Visual Object Learning </a> </li> <br>
+							<li><a href="papers/2019_Zhang_NeurIPS.pdf" >   A Self Validation Network for Object-Level Human
+Attention Estimation
+							 </a> </li><br>
+							 </ul>
+							<br> 
+							 More papers can be found <a href="pub.html"> here </a>
+							
+                        </td>
+						<td class="img_cell_r">
+                            <video controls>
+                            <source src="video/yolo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+						Automatic Object detection from egocentric vision 
+					</td>
+                        
+                    </tr>
+
+
+                    <tr>
+                        <td class="img_cell_r">
+                            <video controls>
+                            <source src="video/asso_matrix.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+						Building a word-referent associative matrix based on object-name co-occurrences in toy play 
+						
+                        <td class="text_cell">
+                            <p class="rp_title">Cognitive Modeling </p>
+                            <p class="rp_content">How can computational models be used to advance developmental science and cognitive science? Recent advances in sensing technology make it increasingly feasible to collect dense sensory data that captures the perceptual inputs children receive (e.g. via wearable eye trackers). The availability of such datasets has created the opportunity (and challenge) to apply computational models to raw sensory data perceived by human learners to simulate how they accomplish various kinds of learning tasks, such as visual object recognition and word learning. The “in-principle” solutions offered by computational models provide not only powerful ways to quantify the informativeness of the learning inputs in everyday learning environments, but also useful tools to discover the cognitive mechanisms through which human learners use the same data to solve the same problems. 
+							</p>
+							<br> <strong> Representative Publications: </strong> <br>
+							<ul><li> <a href="papers/2012_Yu_PsychRev.pdf" >  Modeling Cross-Situational Word-Referent Learning: Prior Questions. </a> </li> <br>
+							<li> <a href="papers/2012_Kachergis_PBR.pdf" >   An Associative Model of Adaptive Inference for Learning Word-Referent Mappings </li>
+							 </a> </ul>
+							 <br> <br>
+							 More papers can be found <a href="pub.html"> here </a>
+							 
+                        </td>
+                    </tr>
+
+                   
+                </tbody>
+            </table>
+
+        </section>
+
+        <!-- contact information -->
+      <section class="contact_info">
+            <img style="float: left; width: 100px;" src="images/tower.png">
+                <p style="text-align: center; color: white;"><strong>University of Texas-Austin | Department of Psychology</strong><br><br>
+                Lab email: chenyulab@austin.utexas.edu | Address: 108 E Dean Keeton St, Austin, TX 78712</p>
+
+        </section>
+    </div>
+</body>
+
+</html>
