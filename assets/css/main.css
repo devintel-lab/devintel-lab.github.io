@@ -27,7 +27,7 @@ video {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 10;
   text-align: right;
   word-spacing: 0px;
 }
@@ -36,13 +36,22 @@ video {
   float: none;
   color: white;
   text-align: center;
-  padding: 12px;
+  /*padding: 12px;*/
+  padding-left: 5px
+  padding-right: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 5px;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   word-spacing: 0px;
-  line-height: 25px;
+  line-height: 40px;
   border-radius: 4px;
+}
+
+.navbar a:first-child {
+  margin-left: 35%;
 }
 
 .navbar a:hover {
@@ -58,24 +67,24 @@ video {
   height: 88px;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 20;
 }
 
 .lab_logo_text {
   position: fixed;
   margin-top: 20px;
   left: 90px;
-  z-index: 100;
-  font-family: "Montserrat";
+  z-index: 15;
+  /*font-family: "Montserrat";*/
   color: white;
-  font-weight: bolder;
-  font-size: larger;
+  font-weight: bold;
+  font-size: large;
   text-decoration: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 720px) {
   .lab_logo_text {
-    visibility: hidden;
+    color: black;
   }
 
   .lab_logo {
@@ -88,7 +97,7 @@ video {
   }
 
   .navbar {
-    background-color: black;
+    /*background-color: black;*/
     width: 0px;
     height: 100%;
     overflow-x: hidden;
@@ -101,6 +110,21 @@ video {
   .homepage {
     padding: 0px;
   }
+}
+
+.overlay{
+	position: fixed;
+	padding-top: 88px;
+	padding-left: 44px;
+	padding-right: 30%;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	font-size: 26px;
+	line-height: 40px !important;
+	color: rgb(255,255,255);
+	background-color: rgba(0,0,0,0.5); /*dim the background*/
+	visibility: hidden;
 }
 
 /* slideshow_container */
@@ -121,7 +145,7 @@ video {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-    margin-top: 66px;
+    /*margin-top: 66px;*/
 
 }
 
@@ -282,12 +306,12 @@ video {
   color: #515154;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 720px) {
   .intro_content {
     text-align: justify;
     font-size: 18px;
     font-weight: 600;
-    line-height: 35px;
+    line-height: 28px;
     color: #515154;
   }
 }
@@ -404,6 +428,10 @@ video {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .article {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -519,6 +547,47 @@ video {
   float: left;
   overflow: hidden;
   height: 480px;
+}
+
+.mapouter {
+  /* position: relative; */
+  /* text-align: right; */
+  height: 480px;
+  width: 50%;
+  float: right
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 480px;
+	width: 100%;
+}
+
+.contact_page_main {
+	height: 480px;
+}
+
+@media screen and (max-width: 720px) {
+  .contact_page_main {
+	height: 640px;
+}
+
+  .contact_information {
+	float: none;
+	width: 100%;
+	height: 320px;
+	padding-left: 20px;
+  }
+  .mapouter {
+  	float: none;
+  	width: 100%;
+  	height: 320px;
+  }
+  .gmap_canvas iframe {
+  	height: 320px;
+  }
+
 }
 
 /* research project page */
