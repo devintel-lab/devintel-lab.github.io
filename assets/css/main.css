@@ -69,15 +69,16 @@ video {
 
 .lab_logo_text {
   position: fixed;
-  left: 90px;
-  top: 5px;
-  z-index: 15;
+  left: 90px !important;
+  top: 5px ;
+  z-index: 15 !important;
   /*font-family: "Montserrat";*/
-  color: white !important;
+  color: white ;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
 }
+
 
 .phone_nav_toggle {
   width: 60px;
@@ -91,13 +92,20 @@ video {
 
 @media screen and (max-width: 737px) {
   .lab_logo_text {
-    color: black;
+    color: black !important;
+      position: fixed;
+  left: 90px ;
+  top: 15px !important;
+  color: white ;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
   }
 
   .lab_logo {
     position: fixed;
     height: 88px;
-    top: 0;
+    top: 0px;
     left: 0;
     z-index: 100;
     cursor: pointer;
