@@ -70,10 +70,10 @@ video {
 .lab_logo_text {
   position: fixed;
   left: 90px !important;
-  top: 5px ;
+  top: 5px !important ;
   z-index: 15 !important;
   /*font-family: "Montserrat";*/
-  color: white ;
+  color: white !important;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
@@ -94,7 +94,7 @@ video {
   .lab_logo_text {
     color: black !important;
       position: fixed;
-  left: 90px ;
+  left: 20px ;
   top: 15px !important;
   color: white ;
   font-weight: bold;
@@ -104,9 +104,9 @@ video {
 
   .lab_logo {
     position: fixed;
-    height: 88px;
-    top: 0px;
-    left: 0;
+    height: 70px;
+    top: 5px;
+    left: 15px;
     z-index: 100;
     cursor: pointer;
   }
@@ -118,7 +118,7 @@ video {
     overflow-x: hidden;
   }
   .navbar a {
-    font-size: 25px;
+    font-size: 18px;
     display: block;
   }
 
