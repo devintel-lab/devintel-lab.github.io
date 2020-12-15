@@ -68,8 +68,8 @@ video {
 
 .lab_logo_text {
   position: fixed;
-  margin-top: 20px;
   left: 90px;
+  top: 20px;
   z-index: 15;
   /*font-family: "Montserrat";*/
   color: white;
@@ -268,7 +268,7 @@ video {
 /* slide indicator */
 .slide_indicator {
   position: absolute;
-  bottom: -5%;
+  bottom: -30px;
   width: 100%;
   text-align: center;
   word-spacing: 10px;
