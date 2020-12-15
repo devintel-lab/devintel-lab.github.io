@@ -114,3 +114,16 @@
     text-shadow: none;
     background-image: none;
 }
+
+.ui.orange.button {
+    background-color: chocolate;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+}
+
+.ui.orange.button:focus {
+    background-color: chocolate;
+    color: #fff;
+    text-shadow: none;
+}
