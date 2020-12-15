@@ -58,6 +58,7 @@ video {
 .navbar a.active {
   background-color: dodgerblue;
 }
+
 .lab_logo {
   position: fixed;
   height: 88px;
@@ -72,7 +73,7 @@ video {
   top: 5px;
   z-index: 15;
   /*font-family: "Montserrat";*/
-  color: white;
+  color: white !important;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
