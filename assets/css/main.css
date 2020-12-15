@@ -69,7 +69,7 @@ video {
 .lab_logo_text {
   position: fixed;
   left: 90px;
-  top: 20px;
+  top: 5px;
   z-index: 15;
   /*font-family: "Montserrat";*/
   color: white;

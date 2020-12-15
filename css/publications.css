@@ -9,7 +9,7 @@
 }
 
 #pubCard {
-    border-radius: 20px;
+    border-radius: 25px;
     /* height: vh; */
     padding:10px;
     margin: 10px 10px 10px 10px;
@@ -108,3 +108,9 @@
   width: 0;
 }
 
+.ui.grey.button {
+    background-color: rgba(51, 63, 72, 0.8);
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+}

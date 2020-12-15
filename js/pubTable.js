@@ -43,8 +43,10 @@ function toggleImages() {
 function setCtgBtnColor(ctg) {
     categories.forEach((c) => {
         let btn = document.getElementById(c)
+        
         btn.classList.remove(...btn.classList);
         btn.classList.add('ui', 'grey', 'button')
+        
     })
 
     let btn = document.getElementById(ctg)
