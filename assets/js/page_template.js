@@ -5,12 +5,12 @@ $('document').ready(function () {
       $(".navbar").css("padding", "10px 10px");
       $(".navbar a").css("font-size", "16px");
       $(".lab_logo_text").css("font-size", "medium");
-      $(".lab_logo_text").css("margin-top", "5px");
+      $(".lab_logo_text").css("top", "5px");
     } else if ($(window).width() > 720) {
       $(".navbar").css("padding", "30px 10px");
       $(".navbar a").css("font-size", "18px");
       $(".lab_logo_text").css("font-size", "large");
-      $(".lab_logo_text").css("margin-top", "20px");
+      $(".lab_logo_text").css("top", "20px");
     } else {
       $(".navbar").css("padding", "0px");
       if ($(window).scrollTop() > 80) {
@@ -44,12 +44,12 @@ $('document').ready(function () {
         $(".navbar").css("padding", "10px 10px");
         $(".navbar a").css("font-size", "16px");
         $(".lab_logo_text").css("font-size", "medium");
-        $(".lab_logo_text").css("margin-top", "5px");
+        $(".lab_logo_text").css("top", "5px");
       } else {
         $(".navbar").css("padding", "30px 10px");
         $(".navbar a").css("font-size", "18px");
         $(".lab_logo_text").css("font-size", "large");
-        $(".lab_logo_text").css("margin-top", "20px");
+        $(".lab_logo_text").css("top", "20px");
       }
     } else {
       $(".slideshow_container").css("top", "90px");
@@ -90,14 +90,14 @@ $('document').ready(function () {
   if ($(window).width() > 720) {
     $(".slideshow_container").css("top", "100px");
     $(".lab_logo_text").css("font-size", "large");
-    $(".lab_logo_text").css("margin-top", "20px");
+    $(".lab_logo_text").css("top", "20px");
     $(".navbar").css("width", "100%");
     $(".navbar").css("margin-left", "0px");
     $(".logo_placeholder").attr("onclick", "return true")
     // $(".overlay").css("visibility", "hidden")
     if ($(window).scrollTop() > 80) {
       $(".lab_logo_text").css("font-size", "medium");
-      $(".lab_logo_text").css("margin-top", "5px");
+      $(".lab_logo_text").css("top", "5px");
     }
   } else {
     $(".slideshow_container").css("top", "90px");
@@ -129,9 +129,8 @@ function toggleNav() {
       $(".phone_nav_toggle").css("margin-right", "200px");
       // $(".lab_logo").css("margin-left", "200px")
       // $(".lab_logo_text").css("margin-left", "200px")
-      $(".lab_logo_text").css("left", "10px");
-      $(".lab_logo_text").css("top", "86px");
-      $(".navbar a:first-child").css("margin-left", "0");
+      $(".lab_logo_text").css("left", "20px");
+      $(".lab_logo_text").css("top", "76px");
       $(".slideshow_container").css("top", "136px");
       $(".article").css("padding-top", "106px");
     } else {
@@ -140,7 +139,6 @@ function toggleNav() {
       $(".phone_nav_toggle").css("margin-right", "0px");
       // $(".lab_logo").css("margin-left", "0px");
       // $(".lab_logo_text").css("margin-left", "0px")
-      $(".navbar a:first-child").css("margin-left", "0");
       $(".lab_logo_text").css("left", "90px");
       $(".lab_logo_text").css("top", "20px");
       $(".slideshow_container").css("top", "90px");

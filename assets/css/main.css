@@ -24,7 +24,6 @@ video {
   /* overflow: hidden; */
     
 background: rgba(51, 63, 72, 0.9);
-    background: rgba(51, 63, 72, 0.9);
   /* background: rgb(51, 63, 72); */
   font-family: Montserrat;
   padding: 30px 10px;
@@ -74,11 +73,11 @@ background: rgba(51, 63, 72, 0.9);
 
 .lab_logo_text {
   position: fixed;
-  left: 90px !important;
-  top: 5px !important ;
-  z-index: 15 !important;
+  left: 90px;
+  /*top: 0px;*/
+  z-index: 15;
   font-family: "Montserrat";
-  color: white !important;
+  color: white;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
@@ -98,14 +97,17 @@ background: rgba(51, 63, 72, 0.9);
 
 @media screen and (max-width: 737px) {
   .lab_logo_text {
-    color: black !important;
+    color: black;
       position: fixed;
-  left: 20px ;
-  top: 18px !important;
-  color: white ;
+  left: 90px ;
+  top: 20px;
   font-weight: bold;
   font-size: large;
   text-decoration: none;
+  }
+
+  .navbar a:first-child {
+  margin-left: 0px;
   }
 
   .lab_logo {
@@ -146,7 +148,7 @@ background: rgba(51, 63, 72, 0.9);
 	height: 100%;
 	z-index: 20;
 	font-size: 26px;
-	line-height: 40px !important;
+	line-height: 40px;
 	color: rgb(255,255,255);
 	background-color: rgba(0,0,0,0.5); /*dim the background*/
 	visibility: hidden;
@@ -312,6 +314,10 @@ background: rgba(51, 63, 72, 0.9);
   padding: 60px;
 }
 
+.article .img_container {
+  margin-top: 38px;
+}
+
 .intro_title {
   text-align: center;
   font-size: 50px;
@@ -341,6 +347,10 @@ background: rgba(51, 63, 72, 0.9);
     line-height: 28px;
     color: #515154;
   }
+}
+
+.article .img_container {
+  margin-top: 0px;
 }
 
 .card_container {
@@ -411,7 +421,7 @@ font-family: Montserrat;
   border-radius: 20px;
   position: relative;
   top: 0;
-  transition: all 0.1s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .cards video {
@@ -563,7 +573,7 @@ font-family: Montserrat;
   max-height: 0;
   font-size: 20px;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.4s ease-out;
   border: 1px solid rgb(206 206 206);
   border-top: hidden;
 }
@@ -639,12 +649,32 @@ font-family: Montserrat;
   /* border-collapse: collapse; */
 }
 
-.img_cell {
+@media(max-width: 640px){
+  .research_proj_table tbody tr td { display: table-row;}
+  .research_proj_table tbody tr:nth-child(odd) .img_cell > *:first-child {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 5px solid chocolate;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .research_proj_table tbody tr:nth-child(even) .text_cell > *:first-child {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 5px solid chocolate;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+}
+
+/*.img_cell {
   width: 200px;
   vertical-align: top;
   background-color: inherit;
-}
-.img_cell_r {
+}*/
+
+.img_cell {
   /* width: 500px; */
   width: 50%;
   vertical-align: middle;
@@ -653,12 +683,12 @@ font-family: Montserrat;
   border-bottom: 2px solid grey;
 }
 
-.img_cell_r:nth-child(odd) {
+.img_cell:nth-child(odd) {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
 
-.img_cell_r:nth-child(even) {
+.img_cell:nth-child(even) {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
@@ -671,7 +701,7 @@ font-family: Montserrat;
 .text_cell {
   font-family:"fantasy", sans-serif;
   font-size: 15px;
-  width: auto;
+  width: 50%;
   vertical-align: top;
   background-color: inherit;
   padding-left: 30px;

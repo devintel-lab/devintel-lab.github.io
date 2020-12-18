@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     justify-content: flex-start;/*space-evenly;*/
     margin-top: 6vh;
-    padding-left:80px;
-    padding-right:80px;
+    margin-left:80px;
+    margin-right:80px;
 }
 
 #pubCard {
@@ -31,6 +31,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 6vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #cardImg {
