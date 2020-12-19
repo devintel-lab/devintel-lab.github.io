@@ -1,4 +1,5 @@
 $('document').ready(function () {
+  $(".logo_placeholder").attr("onclick", "return true");
   // when window scrolled down, adjust the size of the navigation bar
   $(window).on("scroll", function () {
     if ($(window).scrollTop() > 80 && $(window).width() > 720) {
@@ -34,11 +35,15 @@ $('document').ready(function () {
       }
     // $(".lab_member_grid div img").css("height", $(".lab_member_grid div img").css("width"))
     if ($(window).width() > 720) {
+      // $(".article .img_container").css("margin-top", "100px");
       $(".slideshow_container").css("top", "100px");
+      if ($(window).width() <= 1224) {
+        $(".slideshow_container").css("top", "140px");
+      }
       $(".lab_logo_text").css("visibility", "visible");
       $(".navbar").css("width", "100%");
       $(".navbar").css("margin-left", "0px");
-      $(".logo_placeholder").attr("onclick", "return true");
+      // $(".logo_placeholder").attr("onclick", "return true");
       // $(".overlay").css("visibility", "hidden")
       if ($(window).scrollTop() > 80) {
         $(".navbar").css("padding", "10px 10px");
@@ -52,12 +57,13 @@ $('document').ready(function () {
         $(".lab_logo_text").css("top", "20px");
       }
     } else {
+      // $(".article .img_container").css("margin-top", "0");
       $(".slideshow_container").css("top", "90px");
       $(".navbar").css("width", "0px");
       $(".homepage").css("margin-left", "0px");
       $(".lab_logo").css("margin-left", "0px");
       $(".navbar").css("padding", "0px");
-      $(".logo_placeholder").attr("onclick", "return false");
+      // $(".logo_placeholder").attr("onclick", "return false");
       // $(".overlay").css("visibility", "visible")
       if ($(window).scrollTop() > 80) {
         $(".lab_logo_text").css("visibility", "hidden");
@@ -88,24 +94,29 @@ $('document').ready(function () {
     }
 
   if ($(window).width() > 720) {
+    // $(".article .img_container").css("margin-top", "100px");
     $(".slideshow_container").css("top", "100px");
+    if ($(window).width() <= 1224) {
+      $(".slideshow_container").css("top", "140px");
+    }
     $(".lab_logo_text").css("font-size", "large");
     $(".lab_logo_text").css("top", "20px");
     $(".navbar").css("width", "100%");
     $(".navbar").css("margin-left", "0px");
-    $(".logo_placeholder").attr("onclick", "return true")
+    // $(".logo_placeholder").attr("onclick", "return true")
     // $(".overlay").css("visibility", "hidden")
     if ($(window).scrollTop() > 80) {
       $(".lab_logo_text").css("font-size", "medium");
       $(".lab_logo_text").css("top", "5px");
     }
   } else {
+    // $(".article .img_container").css("margin-top", "0");
     $(".slideshow_container").css("top", "90px");
     $(".navbar").css("width", "0px");
     $(".homepage").css("margin-left", "0px");
     $(".lab_logo").css("margin-left", "0px");
     $(".navbar").css("padding", "0px");
-    $(".logo_placeholder").attr("onclick", "return false")
+    // $(".logo_placeholder").attr("onclick", "return false")
     // $(".overlay").css("visibility", "visible")
     if ($(window).scrollTop() > 80) {
       // $(".phone_nav_toggle").css("top", "12px");

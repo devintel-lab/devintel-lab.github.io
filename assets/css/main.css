@@ -315,7 +315,7 @@ background: rgba(51, 63, 72, 0.9);
 }
 
 .article .img_container {
-  margin-top: 38px;
+  margin-top: 100px;
 }
 
 .intro_title {
@@ -347,11 +347,14 @@ background: rgba(51, 63, 72, 0.9);
     line-height: 28px;
     color: #515154;
   }
+  
+  .article .img_container {
+    margin-top: 0;
+  }
+
 }
 
-.article .img_container {
-  margin-top: 0px;
-}
+
 
 .card_container {
   margin-top: 100px;
