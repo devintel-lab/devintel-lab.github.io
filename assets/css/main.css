@@ -5,7 +5,7 @@
 
 body {
   background: #f5f7f8;
-  font-family: "fantasy", sans-serif;
+  font-family: "tahoma", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0;
   font-weight: light;
@@ -331,7 +331,7 @@ background: rgba(51, 63, 72, 0.9);
 }
 
 .intro_content {
-  font-family: "fantasy", sans-serif;
+  font-family: "tahoma", sans-serif;
     text-align: justify;
     font-weight: light ;
   font-size: 23px;
@@ -395,9 +395,9 @@ font-family: Montserrat;
   width: 100%;
   align-self: center;
   font-size: normal;
-    font-weight: bold;
+    font-weight:normal;
     font-family: Montserrat;;
-    color: #515154;
+    color: black;
 }
 
 
@@ -702,7 +702,7 @@ font-family: Montserrat;
 }
 
 .text_cell {
-  font-family:"fantasy", sans-serif;
+  font-family:"tahoma", sans-serif;
   font-size: 15px;
   width: 50%;
   vertical-align: top;
