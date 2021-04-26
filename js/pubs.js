@@ -34,18 +34,18 @@ var pubs = [
         year: 2003,
         icon: "./imgs/pub_icons/2003_Yu_CogSciPro.png",
         pdf: "./papers/2003_Yu_CogSciPro.pdf",
-        categories: ["csl", "apa","cogmod"]
+        categories: ["csl", "apa", "cogmod"]
     },
-	{
+    {
         title: "A Multimodal Learning Interface for Grounding Spoken Language in Sensory Perceptions",
         authors: ["Chen Yu", "Dana H. Ballard"],
         journal: "Proceedings of the Fifth International Conference on Multimodal Interface",
         year: 2003,
         icon: "./imgs/pub_icons/2003_Yu_ICMI.png",
         pdf: "./papers/2003_Yu_ICMI.pdf",
-        categories: ["msi", "apa","cvml"]
+        categories: ["msi", "apa", "cvml"]
     },
-	{
+    {
         title: "A Multimodal Learning Interface for Word Acquisition",
         authors: ["Dana H. Ballard", "Chen Yu"],
         journal: "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing",
@@ -54,14 +54,14 @@ var pubs = [
         pdf: "./papers/2003_Ballard_ICASSP.pdf",
         categories: ["cvml", "csl"]
     },
-        {
+    {
         title: "Exploring the Role of Attention in Modeling Embodied Language Acquisition",
         authors: ["Chen Yu", "Dana H. Ballard"],
         journal: "Proceedings of the Fifth International Conference on Cognitive Modeling",
         year: 2003,
         icon: "./imgs/pub_icons/2003_Yu_ICCM.png",
         pdf: "./papers/2003_Yu_ICCM.pdf",
-        categories: ["csl", "apa","cogmod"]
+        categories: ["csl", "apa", "cogmod"]
     },
     {
         title: "A Multimodal Learning Interface for Grounding SpokenLanguage in Sensory Perception",
@@ -70,7 +70,7 @@ var pubs = [
         year: 2004,
         icon: "./imgs/pub_icons/2004_Yu_ACM-TAP.png",
         pdf: "./papers/2004_Yu_ACM-TAP.pdf",
-        categories: ["cvml", "csl","cogmod","msi"]
+        categories: ["cvml", "csl", "cogmod", "msi"]
     },
     {
         title: "On the Integration of Grounding Language and Learning Objects",
@@ -81,8 +81,8 @@ var pubs = [
         pdf: "./papers/2004_Yu_NCAI.pdf",
         categories: ["csl", "cvml"]
     },
-	
-	{
+
+    {
         title: "Detecting User Engagement in Everyday Conversations",
         authors: ["Chen Yu", "Paul M. Aoki", "Allison Woodruff"],
         journal: "Proceedings of the eighth International Conference on Spoken Language Processing",
@@ -107,10 +107,10 @@ var pubs = [
         year: 2004,
         icon: "./imgs/pub_icons/2004_Yu_ICDL.png",
         pdf: "./papers/2004_Yu_ICDL.pdf",
-        categories: ["csl", "msi","cogmod"]
+        categories: ["csl", "msi", "cogmod"]
     },
-    
-    
+
+
     {
         title: "The Role of Embodied Intention in Early Lexical Acquisition",
         authors: ["Chen Yu", "Dana H. Ballard", "Richard N. Aslin"],
@@ -118,7 +118,7 @@ var pubs = [
         year: 2005,
         icon: "./imgs/pub_icons/2005_Yu_CogSci.png",
         pdf: "./papers/2005_Yu_CogSci.pdf",
-        categories: ["csl", "msi","cogmod"]
+        categories: ["csl", "msi", "cogmod"]
     },
     {
         title: "The emergence of links between lexical acquisition and object categorization: a computational study",
@@ -129,7 +129,7 @@ var pubs = [
         pdf: "./papers/2005_Yu_ConSci.pdf",
         categories: ["csl", "cogmod"]
     },
-	{
+    {
         title: "Language Evolution: Body of Evidence?",
         authors: ["Chen Yu", "Dana H. Ballard"],
         journal: "Behavioral and Brain Sciences",
@@ -201,14 +201,14 @@ var pubs = [
         pdf: "./papers/2007_Yu_PsychSci.pdf",
         categories: ["csl"]
     },
-	{
+    {
         title: "A Unified Model of Early Word Learning: Integrating Statistical and Social Cues",
         authors: ["Chen Yu", "Dana H. Ballard"],
         journal: "Neurocomputing",
         year: 2007,
         icon: "./imgs/pub_icons/2007_Yu_Neurocomputing.png",
         pdf: "./papers/2007_Yu_Neurocomputing.pdf",
-        categories: ["cogmod", "csl","msi"]
+        categories: ["cogmod", "csl", "msi"]
     },
     {
         title: "Embodied Active Vision in Language Learningand Grounding",
@@ -246,8 +246,8 @@ var pubs = [
         pdf: "./papers/2007_Yu_CogSciPro-1.pdf",
         categories: ["csl", "cogmod"]
     },
-    
-     {
+
+    {
         title: "Infants Rapidly Learn Word-Referent Mappings via cross-situational Statistics",
         authors: ["Linda B.Smith", "Chen Yu"],
         journal: "Cognition",
@@ -256,7 +256,7 @@ var pubs = [
         pdf: "./papers/2008_Smith_Cognition.pdf",
         categories: ["csl"]
     },
-	 
+
     {
         title: "A Statistical Associative Account of Vocabulary Growth in Early Word Learning",
         authors: ["Chen Yu"],
@@ -266,7 +266,7 @@ var pubs = [
         pdf: "./papers/2008_Yu_LLA.pdf",
         categories: ["csl", "cogmod"]
     },
-	{
+    {
         title: "Social Coordination in Toddler's Word Learning: Interacting Systems of Perception and Action",
         authors: ["Alfredo Pereira", "Linda B. Smith", "Chen Yu"],
         journal: "Connection Science",
@@ -338,8 +338,8 @@ var pubs = [
         pdf: "./papers/2008_Yurovsky_CogSciPro.pdf",
         categories: ["csl"]
     },
-   
-   {
+
+    {
         title: "Visual Data Mining of Multimedia Data for Social and Behavioral Studies",
         authors: ["Chen Yu", "Yiwen Zhong", "Thomas Smith", "Ikhyun Park", "Weixia Huang"],
         journal: "Information Visualization",
@@ -454,7 +454,7 @@ var pubs = [
         year: 2010,
         icon: "./imgs/pub_icons/2010_Kachergis_CogSciPro-1.png",
         pdf: "./papers/2010_Kachergis_CogSciPro-1.pdf",
-        categories: ["csl","cogmod"]
+        categories: ["csl", "cogmod"]
     },
     {
         title: "Time Course of Visual Attention in Statistical Learning of Words and Categories",
@@ -508,7 +508,7 @@ var pubs = [
         year: 2010,
         icon: "./imgs/pub_icons/2010_Hidaka_SSTDM.png",
         pdf: "./papers/2010_Hidaka_SSTDM.pdf",
-        categories: ["msi", "cvml","cogmod"]
+        categories: ["msi", "cvml", "cogmod"]
     },
     {
         title: "Analyzing Multimodal Time Series as Dynamical Systems",
@@ -537,7 +537,7 @@ var pubs = [
         pdf: "./papers/2010_Zhang_IVA.pdf",
         categories: ["msi"]
     },
-    
+
     {
         title: "A Data-Driven Paradigm to Understand Multimodal Communication in Human-Human and Human-Robot Interaction",
         authors: ["Chen Yu", "Thomas G.Smith", "Shohei Hidaka", "Matthias Scheutz", "Linda B. Smith"],
@@ -547,8 +547,8 @@ var pubs = [
         pdf: "./papers/2010_Yu_Chapter.pdf",
         categories: ["msi"]
     },
-    
-	{
+
+    {
         title: "Not your mother's view: The dynamics of toddler visual experience",
         authors: ["Linda B. Smith", "Chen Yu", "Alfredo F. Pereira"],
         journal: "Developmental Science",
@@ -584,7 +584,7 @@ var pubs = [
         pdf: "./papers/2011_Yurovsky_Chapter.pdf",
         categories: ["cogmod"]
     },
-	{
+    {
         title: "Sequential Data Mining of Multimodal Data Streams from Dyadic Interactions",
         authors: ["Damian Fricker", "Hui Zhang", "Chen Yu"],
         journal: "Proceedings of IEEE 10th International Conference in Development and Learning",
@@ -647,7 +647,7 @@ var pubs = [
         pdf: "./papers/2012_Yu_Cognition.pdf",
         categories: ["msi", "apa"]
     },
-    
+
     {
         title: "An Associative Model of Adaptive Inference for Learning Word-Referent Mappings",
         authors: ["George Kachergis", "Chen Yu", "Richard M. Shiffrin"],
@@ -673,7 +673,7 @@ var pubs = [
         year: 2012,
         icon: "./imgs/pub_icons/2012_Yu_ACMTiiS.png",
         pdf: "./papers/2012_Yu_ACMTiiS.pdf",
-        categories: ["msi" ]
+        categories: ["msi"]
     },
     {
         title: "Selective attention in cross-situational statistical learning: evidence from eye tracking",
@@ -720,7 +720,7 @@ var pubs = [
         pdf: "./papers/2012_Kachergis_ICDL-EpiRob.pdf",
         categories: ["csl", "cogmod"]
     },
-	{
+    {
         title: "Joint Attention without Gaze Following: Human Infants and Their Parents Coordinate Visual Attention to Objects through Eye-Hand Coordination",
         authors: ["Chen Yu", "Linda B. Smith"],
         journal: "PLoS ONE",
@@ -729,7 +729,7 @@ var pubs = [
         pdf: "./papers/2013_Yu_POne.pdf",
         categories: ["msi", "apa"]
     },
-   {
+    {
         title: "Statistical word learning at scale: the baby's view is better",
         authors: ["Daniel Yurovsky", "Linda B. Smith", "Chen Yu"],
         journal: "Developmental Science",
@@ -792,8 +792,8 @@ var pubs = [
         pdf: "./papers/2013_Yurovsky_DevSci.pdf",
         categories: ["apa"]
     },
-    
-     {
+
+    {
         title: "Understanding Embodied Visual Attention in Child-Parent Interaction",
         authors: ["Sven Bambach", "David J. Crandall", "Chen Yu"],
         journal: "Proceedings of IEEE ICDL-EPIROB",
@@ -829,8 +829,8 @@ var pubs = [
         pdf: "./papers/2013_Kachergis_CogSciPro.pdf",
         categories: ["csl"]
     },
-    
-	{
+
+    {
         title: "A bottom-up view of toddler word learning",
         authors: ["Alfredo F. Pereira", "Linda B. Smith", "Chen Yu"],
         journal: "Psychological Bulletin & Review",
@@ -846,7 +846,7 @@ var pubs = [
         year: 2014,
         icon: "./imgs/pub_icons/2014_Yurovsky_PBR.png",
         pdf: "./papers/2014_Yurovsky_PBR.pdf",
-        categories: ["csl","cogmod"]
+        categories: ["csl", "cogmod"]
     },
     {
         title: "The unrealized promise of infant statistical word-referent learning",
@@ -857,7 +857,7 @@ var pubs = [
         pdf: "./papers/2014_Smith_TiCS.pdf",
         categories: ["csl"]
     },
-	{
+    {
         title: "Cross-situational word learning is both implicit and strategic",
         authors: ["George Kachergis", "Chen Yu", "Richard M. Shiffrin"],
         journal: "Frontiers in Cognitive Science",
@@ -902,7 +902,7 @@ var pubs = [
         pdf: "./papers/2014_Romberg_CogSciPro.pdf",
         categories: ["csl"]
     },
-	{
+    {
         title: "Continuous measure of word learning supports associative model",
         authors: ["George Kachergis", "Chen Yu"],
         journal: "IEEE Conference on Development and Learning / EpiRob",
@@ -910,7 +910,7 @@ var pubs = [
         icon: "./imgs/pub_icons/2014_Kachergis_ICDL-EpiRob.png",
         pdf: "./papers/2014_Kachergis_ICDL-EpiRob.pdf",
         categories: ["csl"]
-    }, 
+    },
     {
         title: "Learning to interact and interacting to learn: active statistical learning in human-robot interaction",
         authors: ["Chen Yu", "Tian Xu", "Yiwen Zhong", "Seth Foster", "Hui Zhang"],
@@ -929,8 +929,8 @@ var pubs = [
         pdf: "./papers/2014_Yu_Chapter.pdf",
         categories: ["msi", "apa"]
     },
-    
-   {
+
+    {
         title: "Lending A Hand: Detecting Hands and Recognizing Activities in Complex Egocentric Interaction",
         authors: ["Sven Bambach", "Stefan Lee", "David J. Crandall", "Chen Yu"],
         journal: "Proceedings of IEEE International Conference on Computer Vision",
@@ -984,7 +984,7 @@ var pubs = [
         pdf: "./papers/2015_Bambach_ICMI.pdf",
         categories: ["cvml"]
     },
-    
+
     {
         title: "Linking Joint Attention with Hand-Eye Coordination -- A Sensorimotor Approach to Understanding Child-Parent Social Interaction",
         authors: ["Chen Yu", "Linda B. Smith"],
@@ -1012,7 +1012,7 @@ var pubs = [
         pdf: "./papers/2016_Yu_CurBio.pdf",
         categories: ["msi", "apa"]
     },
-	{
+    {
         title: "See You See Me: The Role of Eye Contact in Multimodal Human-Robot Interaction",
         authors: ["Tian Xu", "Hui Zhang", "Chen Yu"],
         journal: "ACM Transactions on Interactive Intelligent System",
@@ -1030,7 +1030,7 @@ var pubs = [
         pdf: "./papers/2016_Chen_CogSci.pdf",
         categories: ["csl"]
     },
-	{
+    {
         title: "How everyday visual experience prepares the way for learning object names",
         authors: ["Elizabeth M. Clerkin", "Elizabeth Hart", "James M.Rehg", "Chen Yu", "Linda B.Smith"],
         journal: "Proceedings of the Sixth Joint IEEE International Conference on Developmental Learning and Epigenetic Robotics",
@@ -1091,7 +1091,7 @@ var pubs = [
         year: 2016,
         icon: "./imgs/pub_icons/2016_Suanda_CogSciPro.png",
         pdf: "./papers/2016_Suanda_CogSciPro.pdf",
-        categories: ["csl","msi"]
+        categories: ["csl", "msi"]
     },
     {
         title: "Multiple Sensory-Motor Pathways Lead to Coordinated Visual Attention",
@@ -1102,7 +1102,7 @@ var pubs = [
         pdf: "./papers/2017_Yu_CogSci.pdf",
         categories: ["msi", "apa"]
     },
-	{
+    {
         title: "Hand–Eye Coordination Predicts Joint Attention",
         authors: ["Chen Yu", "Linda B. Smith"],
         journal: "Child Development",
@@ -1147,8 +1147,8 @@ var pubs = [
         pdf: "./papers/2017_Suanda_DevNeur.pdf",
         categories: ["msi", "csl"]
     },
-    
-    
+
+
     {
         title: "Iterative Machine Teaching",
         authors: ["Weiyang Liu", "Bo Dai", "Ahmad Humayun", "Charlene Tay", "Chen Yu", "Linda B.Smith", "James M.Rehg", "Le Song"],
@@ -1212,7 +1212,7 @@ var pubs = [
         pdf: "./papers/2018_Bambach_NeurIPS.pdf",
         categories: ["cvml", "apa"]
     },
-	{
+    {
         title: "The Developing Infant Creates a Curriculum for Statistical Learning",
         authors: ["Linda B. Smith", "Swapnaa Jayaraman", "Elizabeth Clerkin", "Chen Yu"],
         journal: "Trends in Cognitive Sciences",
@@ -1221,7 +1221,7 @@ var pubs = [
         pdf: "./papers/2018_Smith_TiCS.pdf",
         categories: ["csl", "apa"]
     },
-	{
+    {
         title: "Learning Object Names at Different Hierarchical Levels Using Cross-Situational Statistics",
         authors: ["Chi-hsin Chen", "Yayun Zhang", "Chen Yu"],
         journal: "Cognitive Science",
@@ -1230,8 +1230,8 @@ var pubs = [
         pdf: "./papers/2018_Chen_CogSci.pdf",
         categories: ["csl"]
     },
-    
-    
+
+
     {
         title: "Estimating Head Motion from Egocentric Vision",
         authors: ["Satoshi Tsutsui", "Sven Bambach", "David Crandall", "Chen Yu"],
@@ -1311,9 +1311,9 @@ var pubs = [
         year: 2019,
         icon: "./imgs/pub_icons/2019_Yu_DevSci.png",
         pdf: "./papers/2019_Yu_DevSci.pdf",
-        categories: ["csl", "apa","msi"]
+        categories: ["csl", "apa", "msi"]
     },
-	{
+    {
         title: "Multimodal Parent Behaviors Within Joint Attention Support Sustained Attention in Infants",
         authors: ["Catalina Suarez-Rivera", "Linda B. Smith", "Chen Yu"],
         journal: "Developmental Psychology",
@@ -1347,9 +1347,9 @@ var pubs = [
         year: 2019,
         icon: "./imgs/pub_icons/2019_Slone_DevSci.png",
         pdf: "./papers/2019_Slone_DevSci.pdf",
-        categories: ["msi", "apa","csl"]
+        categories: ["msi", "apa", "csl"]
     },
-     {
+    {
         title: "The Signal in the Noise: The Visual Ecology of Parents’ Object Naming",
         authors: ["Sumarga H. Suanda", "Meagan Barnhart", "Linda B. Smith", "Chen Yu"],
         journal: "Infancy",
@@ -1379,7 +1379,7 @@ var pubs = [
     {
         title: "Why Some Verbs are Harder to Learn than Others – A Micro-Level Analysis of Everyday Learning Contexts for Early Verb Learning",
         authors: ["Siyun Liu", "Yayun Zhang", "Chen Yu"],
-        journal: "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
         year: 2019,
         icon: "./imgs/pub_icons/2019_Liu_CogSciPro.png",
         pdf: "./papers/2019_Liu_CogSciPro.pdf",
@@ -1388,7 +1388,7 @@ var pubs = [
     {
         title: "Examining the multimodal effects of parent speech in parent-infant interactions",
         authors: ["Sara Schroer", "Linda B. Smith", "Chen Yu"],
-        journal: "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
         year: 2019,
         icon: "./imgs/pub_icons/2019_Schroer_CogSciPro.png",
         pdf: "./papers/2019_Schroer_CogSciPro.pdf",
@@ -1397,7 +1397,7 @@ var pubs = [
     {
         title: "Action prediction during real-time social interactions in infancy",
         authors: ["Claire Monroy", "Chi-hsin Chen", "Derek M. Houston", "Chen Yu"],
-        journal: "Proceedings of the 40th Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
         year: 2019,
         icon: "./imgs/pub_icons/2019_Monroy_CogSciPro.png",
         pdf: "./papers/2019_Monroy_CogSciPro.pdf",
@@ -1457,7 +1457,7 @@ var pubs = [
         pdf: "./papers/2019_Stojanov_CVPR.pdf",
         categories: ["cvml"]
     },
-   
+
     {
         title: "A Self Validation Network for Object-Level Human Attention Estimation",
         authors: ["Zehua Zhang", "Chen Yu", "David Crandall"],
@@ -1479,13 +1479,13 @@ var pubs = [
     {
         title: "Decoding Eye Movements in Cross-Situational Word Learning via Tensor Component Analysis",
         authors: ["Andrei Amatuni", "Chen Yu"],
-        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
         year: 2020,
         icon: "./imgs/pub_icons/2020_Amatuni_CogSciPro.png",
         pdf: "./papers/2020_Amatuni_CogSciPro.pdf",
         categories: ["csl", "apa"]
     },
-    
+
     {
         title: "Using head-mounted eye-trackers to study sensory-motor dynamics of coordinated attention",
         authors: ["Chi-hsin Chen", "Claire Monroy", "Derek M. Houston", "Chen Yu"],
@@ -1516,7 +1516,7 @@ var pubs = [
     {
         title: "Examining a developmental pathway of early word learning: From qualitative characteristics of parent speech, to sustained attention, to vocabulary size",
         authors: ["Ryan E. Peters", "Chen Yu"],
-        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
         year: 2020,
         icon: "./imgs/pub_icons/2020_Peters_CogSciPro-2.png",
         pdf: "./papers/2020_Peters_CogSciPro-2.pdf",
@@ -1534,7 +1534,7 @@ var pubs = [
     {
         title: "A Computational Model of Early Word Learning from the Infant’s Point of View",
         authors: ["Satoshi Tsutsui", "Arjun Chandrasekaran", "Md Alimoor Reza", "David Crandall", "Chen Yu"],
-        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
         year: 2020,
         icon: "./imgs/pub_icons/2020_Tsutsui_CogSciPro.png",
         pdf: "./papers/2020_Tsutsui_CogSciPro.pdf",
@@ -1543,23 +1543,23 @@ var pubs = [
     {
         title: "Seeking Meaning: Examining a Cross-situational Solution to Learn Action Verbs  Using Human Simulation Paradigm",
         authors: ["Yayun Zhang", "Andrei Amatuni", "Ellis Cain", "Chen Yu"],
-        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+        journal: "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
         year: 2020,
         icon: "./imgs/pub_icons/2020_Zhang_CogSciPro.png",
         pdf: "./papers/2020_Zhang_CogSciPro.pdf",
         categories: ["csl"]
-		},
-		
-		{
-        title: "Examining Sustained Attention in Child-Parent Interaction: A Comparative Study of Typically Developing Children and Children with Autism Spectrum Disorder", 
+    },
+
+    {
+        title: "Examining Sustained Attention in Child-Parent Interaction: A Comparative Study of Typically Developing Children and Children with Autism Spectrum Disorder",
         authors: ["Julia R. Yurkovic", "Grace Lisandrelli", "Rebecca C. Shaffer", "Kelli C. Dominick", "Ernest V. Pedapati",
-"Craig A. Erickson", "Daniel P. Kennedy", "Chen Yu"],
-        journal: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society",
+            "Craig A. Erickson", "Daniel P. Kennedy", "Chen Yu"],
+        journal: "Proceedings of the 42nd Annual Meeting of the Cognitive Science Society",
         year: 2020,
         icon: "./imgs/pub_icons/2020_Yurkovic_CogSciPro.png",
         pdf: "./papers/2020_Yurkovic_CogSciPro.pdf",
-        categories: ["msi","apa"]
-		},
-		
-		
-] 
+        categories: ["msi", "apa"]
+    },
+
+
+]
