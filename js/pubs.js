@@ -1562,7 +1562,52 @@ var pubs = [
     },
     
     
-            {
+
+
+               {
+        title: "The distributional properties of exemplars afect category learning and generalization",
+        authors: ["Paulo F. Carvalho","Chi‑hsin Chen","Chen Yu"],
+        journal: "Scientific Reports",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Carvalho_SciRep.jpg",
+        pdf: "./papers/2021_Carvalho_SciRep.pdf",
+        categories: ["csl"]
+    },
+    
+    
+     
+
+               {
+        title: "Action prediction during real-time parent-infant interactions",
+        authors: ["Claire Monroy","Chi-Hsin Chen","Derek Houston","Chen Yu"],
+        journal: "Developmental Science",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Monroy_DevSci.jpg",
+        pdf: "./papers/2021_Monroy_DevSci.pdf",
+        categories: ["msi", "apa"]
+    },
+    
+       {
+        title: "Using head‑mounted eye tracking to examine visual and manual exploration during naturalistic toy play in children with and without autism spectrum disorder",
+        authors: ["Julia R. Yurkovic", "Grace Lisandrelli", "Rebecca C. Shafer", "Kelli C. Dominick","Ernest V. Pedapati", "Craig A. Erickson","Daniel P. Kennedy","Chen Yu"],
+        journal: "Scientific Report",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Yurkovic_SciRep.jpg",
+        pdf: "./papers/2021_Yurkovic_SciRep.pdf",
+        categories: ["msi", "apa"]
+    },
+
+               {
+        title: "Cross-situational Learning From Ambiguous Egocentric Input Is a Continuous Process: Evidence Using the Human Simulation Paradigm",
+        authors: ["Yayun Zhang", "Daniel Yurovsky","Chen Yu"],
+        journal: "Cognitive Science",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Zhang_CogSci.jpg",
+        pdf: "./papers/2021_Zhang_CogSci.pdf",
+        categories: ["csl"]
+    },
+
+             {
         title: "In-the-Moment Visual Information from the Infant’s Egocentric View Determines the Success of Infant Word Learning: A Computational Study",
         authors: ["Andrei Amatuni", "Sara Schroer", "Yayun Zhang", "Ryan Peters", "Md. Alimoor Reza",
             "David Crandall", "Chen Yu"],
@@ -1574,6 +1619,37 @@ var pubs = [
     },
     
             {
+        title: "Parents Adaptively Use Anaphora During Parent-Child Social Interaction",
+        authors: ["Jasmine Falk", "Yayun Zhang", "Matthias Scheutz","Chen Yu"],
+        journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Falk_CogSciPro.jpg",
+        pdf: "./papers/2021_Falk_CogSciPro.pdf",
+        categories: ["csl"]
+    },
+      
+            {
+        title: "Joint Action in Deaf and Hearing Toddlers: A Mobile Eye-Tracking Study",
+        authors: ["Claire Monroy","Derek Houston","Chen Yu"],
+        journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Monroy_CogSciPro.jpg",
+        pdf: "./papers/2021_Monroy_CogSciPro.pdf",
+        categories: ["msi", "apa"]
+    },
+            
+    
+    {
+        title: "Modeling joint attention from egocentric vision",
+        authors: ["Ryan E. Peters", "Andrei Amatuni", "Sara E. Schroer", "Shujon Naha", "David Crandall","Chen Yu"],
+        journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Peters_CogSciPro.jpg",
+        pdf: "./papers/2021_Peters_CogSciPro.pdf",
+        categories: ["cvml"]
+    },
+    
+    {
         title: "The Sensorimotor Dynamics of Joint Attention",
         authors: ["Sara Schroer","Chen Yu"],
         journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
@@ -1593,80 +1669,33 @@ var pubs = [
         categories: ["msi"]
     },
     
-               {
-        title: "Zero-Resource Speech Challenge, Visually-Grounded Language Modelling track",
-        authors: ["Afra Alishahi", "Grzegorz Chrupala", "Alejandrina Cristia","Emmanuel Dupoux","Bertrand Higy","Marvin Lavechin", "Okko Rasanen","Chen Yu"],
-        journal: "#",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Alishahi.jpg",
-        pdf: "./papers/2021_Alishahi.pdf",
-        categories: ["cvml"]
-    },
+//              {
+//        title: "Zero-Resource Speech Challenge, Visually-Grounded Language Modelling track",
+//        authors: ["Afra Alishahi", "Grzegorz Chrupala", "Alejandrina Cristia","Emmanuel Dupoux","Bertrand Higy","Marvin Lavechin", "Okko Rasanen","Chen Yu"],
+//        journal: "#",
+//        year: 2021,
+//        icon: "./imgs/pub_icons/2021_Alishahi.jpg",
+//        pdf: "./papers/2021_Alishahi.pdf",
+//        categories: ["cvml"]
+//   }, 
 
-               {
-        title: "The distributional properties of exemplars afect category learning and generalization",
-        authors: ["Paulo F. Carvalho","Chi‑hsin Chen","Chen Yu"],
-        journal: "Scientific Reports",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Carvalho_SciRep.jpg",
-        pdf: "./papers/2021_Carvalho_SciRep.pdf",
-        categories: ["csl"]
-    },
-    
-                   {
-        title: "Parents Adaptively Use Anaphora During Parent-Child Social Interaction",
-        authors: ["Jasmine Falk", "Yayun Zhang", "Matthias Scheutz","Chen Yu"],
-        journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Falk_CogSciPro.jpg",
-        pdf: "./papers/2021_Falk_CogSciPro.pdf",
-        categories: ["csl"]
-    },
 
-               {
-        title: "One-year old infants control bottom-up saliencies to purposely sustain attention",
-        authors: ["Andrés H Méndez", "Chen Yu", "Linda B Smith"],
-        journal: "#",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Méndez.jpg",
-        pdf: "./papers/2021_Méndez.pdf",
-        categories: ["msi", "apa"]
-    },
+ //              {
+ //       title: "One-year old infants control bottom-up saliencies to purposely sustain attention",
+ //      authors: ["Andrés H Méndez", "Chen Yu", "Linda B Smith"],
+ //       journal: "#",
+ //       year: 2021,
+ //       icon: "./imgs/pub_icons/2021_Méndez.jpg",
+ //       pdf: "./papers/2021_Méndez.pdf",
+ //       categories: ["msi", "apa"]
+ //   },
 
-               {
-        title: "Joint Action in Deaf and Hearing Toddlers: A Mobile Eye-Tracking Study",
-        authors: ["Claire Monroy","Derek Houston","Chen Yu"],
-        journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Monroy_CogSciPro.jpg",
-        pdf: "./papers/2021_Monroy_CogSciPro.pdf",
-        categories: ["msi", "apa"]
-    },
-
-               {
-        title: "Action prediction during real-time parent-infant interactions",
-        authors: ["Claire Monroy","Chi-Hsin Chen","Derek Houston","Chen Yu"],
-        journal: "Developmental Science",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Monroy_DevSci.jpg",
-        pdf: "./papers/2021_Monroy_DevSci.pdf",
-        categories: ["msi", "apa"]
-    },
-
-               {
-        title: "Modeling joint attention from egocentric vision",
-        authors: ["Ryan E. Peters", "Andrei Amatuni", "Sara E. Schroer", "Shujon Naha", "David Crandall","Chen Yu"],
-        journal: "Proceedings of the 43rd Annual Meeting of the Cognitive Science Society",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Peters_CogSciPro.jpg",
-        pdf: "./papers/2021_Peters_CogSciPro.pdf",
-        categories: ["cvml"]
-    },
+               
 
                {
         title: "Reverse-engineer the Distributional Structure of Infant Egocentric Views for Training Generalizable Image Classifiers",
         authors: ["Satoshi Tsutsui","David Crandall","Chen Yu"],
-        journal: "#",
+        journal: "CVPR Workshop on Egocentric Perception, Interaction and Computing",
         year: 2021,
         icon: "./imgs/pub_icons/2021_Tsutsui.jpg",
         pdf: "./papers/2021_Tsutsui.pdf",
@@ -1683,25 +1712,7 @@ var pubs = [
         categories: ["msi", "apa"]
     },
 
-               {
-        title: "Using head‑mounted eye tracking to examine visual and manual exploration during naturalistic toy play in children with and without autism spectrum disorder",
-        authors: ["Julia R. Yurkovic", "Grace Lisandrelli", "Rebecca C. Shafer", "Kelli C. Dominick","Ernest V. Pedapati", "Craig A. Erickson","Daniel P. Kennedy","Chen Yu"],
-        journal: "Scientific Report",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Yurkovic_SciRep.jpg",
-        pdf: "./papers/2021_Yurkovic_SciRep.pdf",
-        categories: ["msi", "apa"]
-    },
-
-               {
-        title: "Cross-situational Learning From Ambiguous Egocentric Input Is a Continuous Process: Evidence Using the Human Simulation Paradigm",
-        authors: ["Yayun Zhang", "Daniel Yurovsky","Chen Yu"],
-        journal: "Cognitive Science",
-        year: 2021,
-        icon: "./imgs/pub_icons/2021_Zhang_CogSci.jpg",
-        pdf: "./papers/2021_Zhang_CogSci.pdf",
-        categories: ["csl"]
-    },
+            
 
                {
         title: "Human Learners Integrate Visual and Linguistic Information in Cross-Situational Verb Learning",
