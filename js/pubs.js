@@ -1599,8 +1599,8 @@ var pubs = [
         journal: "#",
         year: 2021,
         icon: "./imgs/pub_icons/2021_Alishahi.jpg",
-        pdf: "./papers/2021_Schroer_Alishahia.pdf",
-        categories: ["#"]
+        pdf: "./papers/2021_Alishahi.pdf",
+        categories: ["cvml"]
     },
 
                {
@@ -1610,7 +1610,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Carvalho_SciRep.jpg",
         pdf: "./papers/2021_Carvalho_SciRep.pdf",
-        categories: ["#"]
+        categories: ["csl"]
     },
     
                    {
@@ -1620,7 +1620,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Falk_CogSciPro.jpg",
         pdf: "./papers/2021_Falk_CogSciPro.pdf",
-        categories: ["#"]
+        categories: ["csl"]
     },
 
                {
@@ -1630,7 +1630,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Méndez.jpg",
         pdf: "./papers/2021_Méndez.pdf",
-        categories: ["#"]
+        categories: ["msi", "apa"]
     },
 
                {
@@ -1640,7 +1640,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Monroy_CogSciPro.jpg",
         pdf: "./papers/2021_Monroy_CogSciPro.pdf",
-        categories: ["#"]
+        categories: ["msi", "apa"]
     },
 
                {
@@ -1650,7 +1650,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Monroy_DevSci.jpg",
         pdf: "./papers/2021_Monroy_DevSci.pdf",
-        categories: ["#"]
+        categories: ["msi", "apa"]
     },
 
                {
@@ -1660,7 +1660,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Peters_CogSciPro.jpg",
         pdf: "./papers/2021_Peters_CogSciPro.pdf",
-        categories: ["#"]
+        categories: ["cvml"]
     },
 
                {
@@ -1670,7 +1670,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Tsutsui.jpg",
         pdf: "./papers/2021_Tsutsui.pdf",
-        categories: ["#"]
+        categories: ["cvml"]
     },
 
                {
@@ -1680,7 +1680,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Yurkovic_CogSciPro.jpg",
         pdf: "./papers/2021_Yurkovic_CogSciPro.pdf",
-        categories: ["#"]
+        categories: ["msi", "apa"]
     },
 
                {
@@ -1690,7 +1690,7 @@ var pubs = [
         year: 2021,
         icon: "./imgs/pub_icons/2021_Yurkovic_SciRep.jpg",
         pdf: "./papers/2021_Yurkovic_SciRep.pdf",
-        categories: ["#"]
+        categories: ["msi", "apa"]
     },
 
                {
