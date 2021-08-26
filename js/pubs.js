@@ -1565,7 +1565,7 @@ var pubs = [
 
 
                {
-        title: "The distributional properties of exemplars affect category learning and generalization",
+        title: "The distributional properties of exemplars afect category learning and generalization",
         authors: ["Paulo F. Carvalho","Chi‑hsin Chen","Chen Yu"],
         journal: "Scientific Reports",
         year: 2021,
