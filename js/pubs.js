@@ -1567,8 +1567,8 @@ var pubs = [
         authors: ["Chen Yu","Yayun Zhang","Lauren Slone", "Linda Smith"],
         journal: "PNAS",
         year: 2021,
-        icon: "./imgs/pub_icons/2021_Yu_pnas.jpg",
-        pdf: "./papers/2021_Yu_pnas.pdf",
+        icon: "./images/pub_icon_2/2021_Yu_PNAS.jpg",
+        pdf: "./papers/2021_Yu_PNAS.pdf",
         categories: ["csl"]
     },
 
