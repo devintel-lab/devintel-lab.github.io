@@ -1562,7 +1562,15 @@ var pubs = [
     },
     
     
-
+    {
+        title: "The infant’s view redefines the problem of referential uncertainty in early word learning",
+        authors: ["Chen Yu","Yayun Zhang","Lauren Slone", "Linda Smith"],
+        journal: "PNAS",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Yu_pnas.png",
+        pdf: "./papers/2021_Yu_pnas.pdf",
+        categories: ["csl"]
+    },
 
                {
         title: "The distributional properties of exemplars affect category learning and generalization",
