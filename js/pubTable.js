@@ -4,6 +4,7 @@ var titleWordLimit = 12;
 
 
 var dateCardImgs = {
+    2022: "./imgs/year/2022.JPG",
     2021: "./imgs/year/2021.JPG",
     2020: "./imgs/year/2020.JPG",
     2019: "./imgs/year/2019.JPG",

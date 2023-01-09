@@ -1594,6 +1594,16 @@ var pubs = [
         pdf: "./papers/2021_Monroy_DevSci.pdf",
         categories: ["msi", "apa"]
     },
+
+    {
+        title: "Head and eyes: Looking behavior in 12- to 24-month-old infants",
+        authors: ["Jeremy I. Borjon", "Drew H. Abney", "Chen Yu", "Linda B. Smith"],
+        journal: "Vision",
+        year: 2021,
+        icon: "./imgs/pub_icons/2021_Borjon_Vision.png",
+        pdf: "./papers/2021_Borjon_Vision.pdf",
+        categories: ["csl"]
+    },
     
        {
         title: "Using head‑mounted eye tracking to examine visual and manual exploration during naturalistic toy play in children with and without autism spectrum disorder",
@@ -1734,4 +1744,133 @@ var pubs = [
 
 
 
+    {
+        title: "Children with ASD establish joint attention during free-flowing toy play without face looks",
+        authors: ["Julia R.Yurkovic", "Grace Lisandrelli", "Rebecca C. Shafer", "Kelli C. Dominick", "Ernest V. Pedapati", "Craig A. Erickson", "Chen Yu"," Daniel P. Kennedy"],
+        journal: "Current Biology",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Yurkovic_CurrBio.png",
+        pdf: "./papers/2022_Yurkovic_CurrentBio.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "The real‐time effects of parent speech on infants' multimodal attention and dyadic coordination",
+        authors: ["Sara E. Schroer", "Chen Yu"],
+        journal: "Infancy",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Schroer_Infancy.png",
+        pdf: "./papers/2022_Schroer_Infancy.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "The temporal structure of parent talk to toddlers about objects",
+        authors: ["Lauren K. Slone","Drew H. Abney","Linda B. Smith","Chen Yu"],
+        journal: "Cognition",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Slone_Cognition.png",
+        pdf: "./papers/2022_Slone_Cognition.pdf",
+        categories: ["csl"]
+    },
+
+    {
+        title: "Looking is not enough: Multimodal attention supports the real-time learning of new words",
+        authors: ["Sara E Schroer", "Chen Yu"],
+        journal: "Developmental Science",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Schroer_DevSci.png",
+        pdf: "./papers/2022_Schroer_DevSci.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "Building lexical networks: Preschoolers extract different types of information in cross-situational learning",
+        authors: ["Chi-hsin Chen","Chen Yu"],
+        journal: "Experimental Child Psychology",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Chen_ExpChildPsych.png",
+        pdf: "./papers/2022_Chen_ExperimentalChildPsychology.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "Beyond Screen Time: Using Head-Mounted Eye Tracking to Study Natural Behavior",
+        authors: ["John M. Franchak", "Chen Yu"],
+        journal: "Advances in Child Development and Behavior",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Franchak_Advances.png",
+        pdf: "./papers/2022_Franchak_Advances.pdf",
+        categories: ["csl"]
+    },
+
+    {
+        title: "Visual statistical learning in deaf and hearing infants and toddlers",
+        authors: ["Claire Monroy", "Chen Yu", "Derek Houston"],
+        journal: "Infancy",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Monroy_Infancy.png",
+        pdf: "./papers/2022_Monroy_Infancy.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "Action Recognition based on Cross-Situational Action-object Statistics",
+        authors: ["Satoshi Tsutsui", "Xizi Wang", "Guangyuan Weng", "Yayun Zhang","David J. Crandall","Chen Yu"],
+        journal: "Computer Vision and Pattern Recognition Conference",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Tsutsui_CVPR.png",
+        pdf: "./papers/2022_Tsutsui_CVPR.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "Examining Real-time Attention Dynamics in Parent-infant Picture Book Reading",
+        authors: ["Yayun Zhang", "Chen Yu"],
+        journal: "Proceedings of the 44th Annual Meeting of the Cognitive Science Society",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Zhang_CogSci.png",
+        pdf: "./papers/2022_Zhang_CogSci.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "Grounding Action Verbs in Egocentric Visual Perception",
+        authors: ["Yayun Zhang", "Ellis Cain","David Crandall","Chen Yu"],
+        journal: "Proceedings of the 44th Annual Meeting of the Cognitive Science Society",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Zhang_CogSci_2.png",
+        pdf: "./papers/2022_Zhang_CogSci_2.pdf",
+        categories: ["csl"]
+    },
+
+
+    {
+        title: "Quantifying cross-situational statistics during parent-child toy play",
+        authors: ["Ellis Cain", "Rachel Ryskin", "Chen Yu"],
+        journal: "Proceedings of the 44th Annual Meeting of the Cognitive Science Society",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Ellis_CogSci.png",
+        pdf: "./papers/2022_Ellis_CogSci.pdf",
+        categories: ["csl"]
+    },
+
+    {
+        title: "Visual attention and language exposure during everyday activities: an at-home study of early word learning using wearable eye trackers,
+        authors: ["Sara E Schroer", "Ryan E Peters","Alyssa Yarbrough", "Chen Yu"],
+        journal: "Proceedings of the 44th Annual Meeting of the Cognitive Science Society",
+        year: 2022,
+        icon: "./imgs/pub_icons/2022_Schroer_CogSci.png",
+        pdf: "./papers/2022_Schroer_CogSci.pdf",
+        categories: ["csl"]
+    },
+
+    
 ]
