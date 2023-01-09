@@ -1863,7 +1863,7 @@ var pubs = [
     },
 
     {
-        title: "Visual attention and language exposure during everyday activities: an at-home study of early word learning using wearable eye trackers,
+        title: "Visual attention and language exposure during everyday activities: an at-home study of early word learning using wearable eye trackers",
         authors: ["Sara E Schroer", "Ryan E Peters","Alyssa Yarbrough", "Chen Yu"],
         journal: "Proceedings of the 44th Annual Meeting of the Cognitive Science Society",
         year: 2022,
